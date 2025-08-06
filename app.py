@@ -1,5 +1,5 @@
-import os
-os.system("python fetch_matches.py")
+import fetch_matches
+fetch_matches.generate_csv()
 # fetch_matches.py
 
 import requests
