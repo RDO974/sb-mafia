@@ -1,4 +1,4 @@
-import fetch_matches
+ import fetch_matches
 fetch_matches.generate_csv()
 # fetch_matches.py
 
@@ -94,4 +94,4 @@ def generate_csv():
 if __name__ == "__main__":
     generate_csv()
     with st.spinner("Chargement des matchs en cours..."):
-    fetch_matches.generate_csv()
+        fetch_matches.generate_csv()
