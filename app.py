@@ -1,4 +1,4 @@
- import fetch_matches
+import fetch_matches
 fetch_matches.generate_csv()
 # fetch_matches.py
 
