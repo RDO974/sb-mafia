@@ -2,6 +2,12 @@ import streamlit as st
 import pandas as pd
 import fetch_matches
 
+# Génère automatiquement le fichier CSV
+fetch_matches.generate_csv()
+
+# Puis charge le fichier
+df = pd.read_csv("matches_today_form.csv")
+
 st.set_page_config(page_title="Sb Mafia - IA Football", layout="wide")
 
 st.title("⚽ Sb Mafia - Prédictions de matchs avec IA")
