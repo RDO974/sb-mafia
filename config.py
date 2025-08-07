@@ -1,0 +1,1 @@
+API_KEY = "INSÈRE_TA_CLÉ_ICI"
