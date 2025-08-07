@@ -1,3 +1,4 @@
+import generate_matches_form
 import streamlit as st
 import pandas as pd
 import fetch_matches
